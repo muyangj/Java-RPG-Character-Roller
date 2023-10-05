@@ -6,9 +6,9 @@ public class Creator {
 
         Random Rand = new Random();
 
-        int h = Rand.nextInt(10) + 2;
-        int s = Rand.nextInt(10) + 2;
-        int m = Rand.nextInt(10) + 2;
+        int h = Rand.nextInt(11) + 2;
+        int s = Rand.nextInt(11) + 2;
+        int m = Rand.nextInt(11) + 2;
 
         int n = Rand.nextInt(3);
         String character;
