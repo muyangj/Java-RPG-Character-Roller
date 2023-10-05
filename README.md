@@ -10,10 +10,12 @@ Write a fantasy game character creator!
 - Option 2:
   - Fork this repository and clone your fork of this
 
+- Make sure .class files are not included in git :)
+
 ## Requirements
 
 - Create a new class called `Creator.java`
-- Make sure .class files are not included in git
+- Make Creator take in the character name as an argument
 - Create a role playing game character
   - A character will randomly be a Warrior, Wizard or Potato
   - Each character has stats: Health, Strength and Magic
@@ -21,43 +23,13 @@ Write a fantasy game character creator!
   - Warriors will have triple Strength
   - Wizards will have triple Magic
   - Potatoes will have triple Health
-  - Generate the team of five characters
+- Example of desired program output below
 
 ## Example
 
-Example of desired program output below. To keep the example short here it is only run 2 times to create 2 characters.
+Example of desired program output below:
 
-```sh
-$ javac Creator.java && java Creator
------------------------------------------
-Welcome to the character generator!
-Your next adventruer is.... a Wizard
-
-        Strength: 5
-        Magic: 21
-        Health: 9
-
-Happy adventuring!
------------------------------------------
-
-$ javac Creator.java && java Creator
------------------------------------------
-Welcome to the character generator!
-Your next adventruer is.... a Potato
-
-        Strength: 9
-        Magic: 6
-        Health: 24
-
-Happy adventuring!
 ```
-
-## Bonus
-
-- Make Creator take in the character name as an argument!
-- Example of desired program output below.
-
-```sh
 $ javac Creator.java && java Creator Veera
 -----------------------------------------
 Welcome to the character generator!
