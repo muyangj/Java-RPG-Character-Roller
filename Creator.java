@@ -32,7 +32,7 @@ public class Creator {
         System.out.println("-----------------------------------------");
         System.out.println(name + " is... a " + character + "!");
         System.out.println();
-        System.out.println("        Strenth: " + s);
+        System.out.println("        Strength: " + s);
         System.out.println("        Magic: " + m);
         System.out.println("        Health: " + h);
         System.out.println();
